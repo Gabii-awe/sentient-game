@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2048 Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="images/dobby.jpg" alt="Sentient Logo" />
+    <h1>2048 for Sentient</h1>
+  </header>
+
+  <div class="game-container">
+    <div class="top-bar">
+      <div class="scores">
+        <div class="score-box">Score <span id="score">0</span></div>
+        <div class="score-box">Best <span id="best">0</span></div>
+      </div>
+      <button onclick="newGame()">New Game</button>
+    </div>
+
+    <div class="grid" id="grid"></div>
+  </div>
+
+  <footer>
+    <p>made by Awe <a href="https://x.com/Gabii_awee" target="_blank" rel="noopener noreferrer">𝕏</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
